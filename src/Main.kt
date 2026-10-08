@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main()
 {
-    println("Введите строку: ")
+    println("Введите строку:")
     val name = readln()
     val symbols = name.toCharArray()
     var count = 1
