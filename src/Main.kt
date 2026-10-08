@@ -3,7 +3,7 @@
 fun main()
 {
     println("Введите строку: ")
-    var name = readln()
+    val name = readln()
     val symbols = name.toCharArray()
     var count = 1
     symbols.sort()
@@ -15,7 +15,7 @@ fun main()
         }
         else
         {
-            println(symbols[i - 1] + " - " + count)
+            println("${symbols[i - 1]} - ${count}")
             count = 1
         }
     }
